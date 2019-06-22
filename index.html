@@ -1,0 +1,22 @@
+<div id="app">
+    {{ message }}
+    <br>
+    <input v-model="message">
+</div>
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+<script>
+var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+})
+</script>
+
+<style>
+    #app {
+        text-align: center;
+    }
+</style>
